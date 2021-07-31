@@ -1,0 +1,10 @@
+1.
+Minimax adalah sebuah algoritma yang sangat bagus dan umum digunakan dalam turn based game.
+Inti dari algoritma ini adalah fungsi minimax yang dapat diimplementasikan secara rekursif maupun disimpan datanya dengan dynamic programming.
+Fungsi ini didasarkan pada pemain yang satu memaksimalkan sebuah nilai sementara pemain lainnya meminimalkan nilai tersebut tiap langkahnya.
+Fungsi ini mengembalikan nilai maksimal/minimal yang dapat dicapai dari sebuah state berdasarkan depth yang diberikan
+2.
+Asumsikan AI bermain sebagai player kedua (O)
+Nilai tiap kondisi papan yang selesai saya hitung sebagai 10-banyak langkah jika O menang, -10+banyak langkah jika X menang, 0 otherwise.
+Kemudian tiap kondisi papan cukup kecil untuk disimpan dengan DP, sehingga aman pula fungsi saya berjalan hingga kedalaman maksimum.
+AI akan mengambil langkah paling memaksimalkan state.

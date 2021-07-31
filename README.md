@@ -1,1 +1,2 @@
 # tictactoeAI
+g++ TicTacToe.cpp
